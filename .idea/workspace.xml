@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf49518e-37b3-411a-a5b3-ff904f10858f" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/BD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/IDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/impl/implementacionDaoH2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/Odontologo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/script.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicio/OdontologoServicio.java" afterDir="false" />
+    <list default="true" id="cf49518e-37b3-411a-a5b3-ff904f10858f" name="Changes" comment="implementacion service dao y script">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Clabel-Diana_Maza-Maribel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Clabel-Diana_Maza-Maribel.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +79,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723173509463</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="implementacion service dao y script">
+      <option name="closed" value="true" />
+      <created>1723177581712</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723177581712</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="implementacion service dao y script" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementacion service dao y script" />
   </component>
 </project>
