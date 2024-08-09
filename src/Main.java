@@ -2,9 +2,12 @@ import dao.BD;
 import modelo.Odontologo;
 import servicio.OdontologoServicio;
 
+import java.io.File;
+
 public class Main {
     public static void main(String[] args) {
-        BD.DatabaseManager.createTableFromFile("D:\\escritorio2024\\Digital House\\workspace-backend\\Clabel-Diana_Maza-Maribel\\src\\script.sql");
+        String filePath = new File("").getAbsolutePath();
+        BD.DatabaseManager.createTableFromFile(filePath.concat("/src/script.sql"));
 
     Odontologo odontologo1 = new Odontologo(
             "Javier",

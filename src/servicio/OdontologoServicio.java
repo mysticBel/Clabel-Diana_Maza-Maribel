@@ -1,7 +1,8 @@
 package servicio;
 
 import dao.IDAO;
-import dao.impl.implementacionDaoH2;
+import dao.impl.ImplementacionDaoArrayList;
+import dao.impl.ImplementacionDaoH2;
 import modelo.Odontologo;
 
 import java.util.List;
@@ -10,8 +11,11 @@ public class OdontologoServicio {
     private IDAO<Odontologo> interfazDAO;
 
     public OdontologoServicio(){
-        this.interfazDAO = new implementacionDaoH2();
+        this.interfazDAO = new ImplementacionDaoH2();
     }
+    /* public OdontologoServicio(){
+        this.interfazDAO = new ImplementacionDaoArrayList();
+    }*/
 
 
     public Odontologo guardar(Odontologo odontologo){

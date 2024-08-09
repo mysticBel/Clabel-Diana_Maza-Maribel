@@ -1,0 +1,16 @@
+[2024-08-09 00:09:51] [ INFO ] [ImplementacionDaoArrayList:22] Odontólogo guardado en memoria: Odontologo{id=1, nombre='Javier', apellido='Salinas', numeroMatricula=12345}
+[2024-08-09 00:09:51] [ INFO ] [ImplementacionDaoArrayList:22] Odontólogo guardado en memoria: Odontologo{id=2, nombre='Daniela', apellido='Chavez', numeroMatricula=43216}
+[2024-08-09 00:09:51] [ INFO ] [ImplementacionDaoArrayList:29] Listado de odontólogos en memoria: [Odontologo{id=1, nombre='Javier', apellido='Salinas', numeroMatricula=12345}, Odontologo{id=2, nombre='Daniela', apellido='Chavez', numeroMatricula=43216}]
+[2024-08-09 00:16:46] [ INFO ] [ImplementacionDaoArrayList:22] Odontólogo guardado en memoria: Odontologo{id=1, nombre='Javier', apellido='Salinas', numeroMatricula=12345}
+[2024-08-09 00:16:46] [ INFO ] [ImplementacionDaoArrayList:22] Odontólogo guardado en memoria: Odontologo{id=2, nombre='Daniela', apellido='Chavez', numeroMatricula=43216}
+[2024-08-09 00:16:46] [ INFO ] [ImplementacionDaoArrayList:29] Listado de odontólogos en memoria: [Odontologo{id=1, nombre='Javier', apellido='Salinas', numeroMatricula=12345}, Odontologo{id=2, nombre='Daniela', apellido='Chavez', numeroMatricula=43216}]
+[2024-08-09 00:20:00] [ INFO ] [ImplementacionDaoArrayList:22] Odontólogo guardado en memoria: Odontologo{id=1, nombre='Javier', apellido='Salinas', numeroMatricula=12345}
+[2024-08-09 00:20:00] [ INFO ] [ImplementacionDaoArrayList:22] Odontólogo guardado en memoria: Odontologo{id=2, nombre='Daniela', apellido='Chavez', numeroMatricula=43216}
+[2024-08-09 00:20:00] [ INFO ] [ImplementacionDaoArrayList:29] Listado de odontólogos en memoria: [Odontologo{id=1, nombre='Javier', apellido='Salinas', numeroMatricula=12345}, Odontologo{id=2, nombre='Daniela', apellido='Chavez', numeroMatricula=43216}]
+[2024-08-09 00:28:20] [ INFO ] [ImplementacionDaoArrayList:23] Odontólogo guardado en memoria: Odontologo{id=1, nombre='Javier', apellido='Salinas', numeroMatricula=12345}
+[2024-08-09 00:28:20] [ INFO ] [ImplementacionDaoArrayList:23] Odontólogo guardado en memoria: Odontologo{id=2, nombre='Daniela', apellido='Chavez', numeroMatricula=43216}
+[2024-08-09 00:28:20] [ INFO ] [ImplementacionDaoArrayList:30] Listado de odontólogos en memoria: [Odontologo{id=1, nombre='Javier', apellido='Salinas', numeroMatricula=12345}, Odontologo{id=2, nombre='Daniela', apellido='Chavez', numeroMatricula=43216}]
+[2024-08-09 00:39:38] [ INFO ] [ImplementacionDaoH2:37] Se guardó el odontologo con nombre Javier
+[2024-08-09 00:39:38] [ INFO ] [ImplementacionDaoH2:37] Se guardó el odontologo con nombre Daniela
+[2024-08-09 00:39:38] [ INFO ] [ImplementacionDaoH2:76] Se listan los odontologos con nombresJavier
+[2024-08-09 00:39:38] [ INFO ] [ImplementacionDaoH2:76] Se listan los odontologos con nombresDaniela

@@ -3,7 +3,7 @@ package dao.impl;
 import dao.BD;
 import dao.IDAO;
 import modelo.Odontologo;
-
+import org.apache.log4j.Logger;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -11,7 +11,9 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class implementacionDaoH2 implements IDAO<Odontologo> {
+public class ImplementacionDaoH2 implements IDAO<Odontologo> {
+
+    private static final Logger logger = Logger.getLogger(ImplementacionDaoH2.class);
 
     @Override
     public Odontologo guardar(Odontologo odontologo) {
@@ -32,8 +34,9 @@ public class implementacionDaoH2 implements IDAO<Odontologo> {
            ResultSet rs = preparedStatement.getGeneratedKeys();
            while (rs.next()) {
                odontologo.setId(rs.getInt(1));
-               System.out.println("Se guardó el odontologo con nombre " +
+               logger.info("Se guardó el odontologo con nombre " +
                        odontologo.getNombre());
+
            }
 
        }catch (Exception e) {
@@ -70,6 +73,7 @@ public class implementacionDaoH2 implements IDAO<Odontologo> {
 
                 odontologoList.add(odontologo);
 
+                logger.info("Se listan los odontologos con nombres" + odontologo.getNombre());
                 System.out.println(odontologo.toString());
             }
 
