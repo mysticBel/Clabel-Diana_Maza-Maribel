@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf49518e-37b3-411a-a5b3-ff904f10858f" name="Changes" comment="implementacion service dao y script">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/math.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/impl/ImplementacionDaoArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
+    <list default="true" id="cf49518e-37b3-411a-a5b3-ff904f10858f" name="Changes" comment="min change">
+      <change afterPath="$PROJECT_DIR$/src/Test/OdontologoListarTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Clabel-Diana_Maza-Maribel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Clabel-Diana_Maza-Maribel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/impl/implementacionDaoH2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/impl/ImplementacionDaoH2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math.log" beforeDir="false" afterPath="$PROJECT_DIR$/math.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/impl/ImplementacionDaoH2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/impl/ImplementacionDaoH2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/servicio/OdontologoServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servicio/OdontologoServicio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
@@ -61,7 +59,7 @@
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/diana/Repos/Digital-house/Backend-I/log4j-1.2.17.jar",
+    "last_opened_file_path": "D:/escritorio2024/Digital House/workspace-backend/apache-log4j-1.2.17/log4j-1.2.17.jar",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -75,10 +73,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="servicio" />
       <recent name="Test" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.OdontologoListarTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Clabel-Diana_Maza-Maribel" />
@@ -86,8 +85,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OdontologoListarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Clabel-Diana_Maza-Maribel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.OdontologoListarTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OdontologoListarTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -117,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723177581712</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="min change">
+      <option name="closed" value="true" />
+      <created>1723178161346</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723178161346</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +158,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="implementacion service dao y script" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementacion service dao y script" />
+    <MESSAGE value="min change" />
+    <option name="LAST_COMMIT_MESSAGE" value="min change" />
   </component>
 </project>

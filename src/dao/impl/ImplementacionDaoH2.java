@@ -73,7 +73,7 @@ public class ImplementacionDaoH2 implements IDAO<Odontologo> {
 
                 odontologoList.add(odontologo);
 
-                logger.info("Se listan los odontologos con nombres" + odontologo.getNombre());
+                logger.info("Se lista el odontologo con nombre" + odontologo.getNombre());
                 System.out.println(odontologo.toString());
             }
 

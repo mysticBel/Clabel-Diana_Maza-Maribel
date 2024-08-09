@@ -13,7 +13,9 @@ public class OdontologoServicio {
     public OdontologoServicio(){
         this.interfazDAO = new ImplementacionDaoH2();
     }
-    /* public OdontologoServicio(){
+    /* Descomentar para usar la ImplementacionDaoArrayList()
+
+    public OdontologoServicio(){
         this.interfazDAO = new ImplementacionDaoArrayList();
     }*/
 
